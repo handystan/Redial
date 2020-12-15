@@ -1,0 +1,106 @@
+<resources>
+    <string name="redial">Auto Redial</string>
+    <string name="general">General</string>
+    <string name="enable_redial">Enable redial</string>
+    <string name="service_on">Service on</string>
+    <string name="service_off">Service off</string>
+    <string name="attempts_amount">Amount of attempts</string>
+    <string name="dynamic">Dynamic</string>
+    <string name="addition">Addition</string>
+    <string name="assessment">Rate this app</string>
+    <string name="about">About</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="start_redial">Start redial?</string>
+    <string name="continue_redial">Continue redial?</string>
+    <string name="unknown">Unknown</string>
+    <string name="attempt">Try</string>
+    <string name="of">from</string>
+    <string name="action_settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="number">8-123-456-78-90</string>
+    <string name="owner_name">Owner name of the phone</string>
+    <string name="paid_service">Paid service</string>
+    <string name="agree_to_pay">Do you want to pay for unlimit redials?</string>
+    <string name="thank_you">Thanks for buying</string>
+    <string name="unlimit_redials_buying">Buying of unlimit redials</string>
+    <string name="attention">Attention!</string>
+    <string name="attention_in_details">Remember! Auto redialer will run automatically after an unsuccessful dialing!</string>
+    <string name="redial_duration">Duration of each redial</string>
+    <string name="agree">Agree</string>
+    <string name="not_agree">Not agree</string>
+    <string name="permission_for_redial">For redial is required phone permission.</string>
+    <string name="not_granted_permission">For redial is not granted phone permission</string>
+    <string name="not_granted_role">For redial is not granted role</string>
+    <string name="need_interner">You need Internet connection for payment.</string>
+    <string name="aready_purchased">The product has already been purchased. Repeat purchase is not possible</string>
+    <string name="pay_service_disconnected">No connection to the purchase service</string>
+    <string name="purchase_error">Error of the product purchase</string>
+    <string name="autoredial_on">AutoRedial is enabled</string>
+    <string name="press_to_change">press to change the settings</string>
+    <string-array name="redial_duration_titles">
+        <item>no limit</item>
+        <item>5 sec.</item>
+        <item>10 sec.</item>
+        <item>15 sec.</item>
+        <item>20 sec.</item>
+        <item>25 sec.</item>
+        <item>30 sec.</item>
+        <item>35 sec.</item>
+        <item>40 sec.</item>
+        <item>45 sec.</item>
+        <item>50 sec.</item>
+        <item>60 sec.</item>
+        <item>70 sec.</item>
+        <item>80 sec.</item>
+        <item>90 sec.</item>
+        <item>100 sec.</item>
+        <item>120 sec.</item>
+        <item>150 sec.</item>
+        <item>180 sec.</item>
+        <item>210 sec.</item>
+    </string-array>
+    <string-array name="redial_duration_values">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>210</item>
+    </string-array>
+    <string name="help_desc">
+<![CDATA[
+<p><big><b>Redial</b></big>
+<br>The program automatically starts in case of unsuccessful outgoing call.
+<br>To turn off the auto-dialer you can unchecking the checkbox \'Redial\' option in settings.
+<p>The program allows you to make free automatic redial 4 times.
+<br>For more amount of auto-redial is required to pay a small fee.
+<p>Parameter \'Duration of each redial\' is set in order to avoid recording Voicemail
+(if this service is available for a callee) when the callee doesn\'t answer long time.
+    ]]>
+    </string>
+    <string name="about_desc">
+<![CDATA[
+<p><big><b>Redial</b></big>
+<br>The version 1.3.3 for Google Android 4.0 and more.
+<p><b>Creator</b>
+<br>Handy Systems
+<p><b>e-mail</b>
+<br>handy@list.ru
+    ]]>
+    </string>
+</resources>

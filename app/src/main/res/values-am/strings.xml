@@ -1,0 +1,106 @@
+<resources>
+    <string name="redial">Автодозвон</string>
+    <string name="general">Основное</string>
+    <string name="enable_redial">Доступность автодозвона</string>
+    <string name="service_on">Сервисы включены</string>
+    <string name="service_off">Сервисы выключены</string>
+    <string name="attempts_amount">Количество повторов</string>
+    <string name="dynamic">Динамик</string>
+    <string name="addition">Дополнительно</string>
+    <string name="assessment">Оценить приложение</string>
+    <string name="about">О программе</string>
+    <string name="yes">ДА</string>
+    <string name="no">НЕТ</string>
+    <string name="start_redial">Начать автодозвон?</string>
+    <string name="continue_redial">Продолжить автодозвон?</string>
+    <string name="unknown">Неизвестный</string>
+    <string name="attempt">Попытка</string>
+    <string name="of">из</string>
+    <string name="action_settings">Настройки</string>
+    <string name="help">Помощь</string>
+    <string name="number">8-123-456-78-90</string>
+    <string name="owner_name">Имя владельца телефона</string>
+    <string name="paid_service">Платный функционал</string>
+    <string name="agree_to_pay">Желаете оплатить возможность неограниченного количества автодозвонов?</string>
+    <string name="thank_you">Спасибо за покупку</string>
+    <string name="unlimit_redials_buying">Покупка неограниченного количества авдозвонов</string>
+    <string name="attention">Внимание!</string>
+    <string name="attention_in_details">Помните! Автодозвон запускается автоматически после неудачной попытки набора номера!</string>
+    <string name="redial_duration">Длительность каждого автодозвона</string>
+    <string name="agree">Согласен</string>
+    <string name="not_agree">Не согласен</string>
+    <string name="permission_for_redial">Для автодозвона необходимо разрешение на звонки</string>
+    <string name="not_granted_permission">Для автодозвона не предоставлено разрешение на звонки</string>
+    <string name="not_granted_role">Для автодозвона не предоставлена роль</string>
+    <string name="need_interner">Для оплаты необходимо подключение к интернету.</string>
+    <string name="aready_purchased">Товар уже приобретен. Повторная покупка не возможна</string>
+    <string name="pay_service_disconnected">Нет связи с сервисом покупки</string>
+    <string name="purchase_error">Ошибка покупки товара</string>
+    <string name="autoredial_on">Автодозвон включен</string>
+    <string name="press_to_change">Нажмите, чтобы изменить настройки</string>
+    <string-array name="redial_duration_titles">
+        <item>без ограничений</item>
+        <item>5 сек.</item>
+        <item>10 сек.</item>
+        <item>15 сек.</item>
+        <item>20 сек.</item>
+        <item>25 сек.</item>
+        <item>30 сек.</item>
+        <item>35 сек.</item>
+        <item>40 сек.</item>
+        <item>45 сек.</item>
+        <item>50 сек.</item>
+        <item>60 сек.</item>
+        <item>70 сек.</item>
+        <item>80 сек.</item>
+        <item>90 сек.</item>
+        <item>100 сек.</item>
+        <item>120 сек.</item>
+        <item>150 сек.</item>
+        <item>180 сек.</item>
+        <item>210 сек.</item>
+    </string-array>
+    <string-array name="redial_duration_values">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>210</item>
+    </string-array>
+    <string name="help_desc">
+<![CDATA[
+<p><big><b>Автодозвон</b></big>
+<br>Программа автоматически запускается в случае неудачного исходящего звонка.
+<br>Отключить автоматический дозвон можно сняв галку \'Автодозвона\' в настройках.
+<p>Программа позволяет бесплатно делать автодозвон 4 раза.
+<br>Для возможности большего количества автодозвонов необходимо внести небольшую символическую плату.
+<p>Параметр \'Длительность каждого автодозвона\' устанавливается для того, чтобы избежать записи
+голосовой почты (если такая услуга подключена у вызываемого абонента) в случае, когда вызываемый абонент долго не отвечает.
+    ]]>
+    </string>
+    <string name="about_desc">
+<![CDATA[
+<p><big><b>Автодозвон</b></big>
+<br>Версия 1.3.3 для Google Android 4.0 и выше.
+<p><b>Производитель</b>
+<br>Handy Systems
+<p><b>e-mail</b>
+<br>handy@list.ru
+    ]]>
+    </string>
+</resources>

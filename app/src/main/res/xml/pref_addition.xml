@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Ссылка для Activity "Помощь" -->
+    <Preference android:title="@string/help" >
+        <intent android:action="ru.handy.android.rd.Help"/>
+    </Preference>
+
+    <!-- Ссылка для оценки приложения -->
+    <Preference android:title="@string/assessment" >
+        <intent android:action="android.intent.action.VIEW"
+            android:data="market://details?id=ru.handy.android.rd" />
+    </Preference>
+
+    <!-- Ссылка для Activity "О программе" -->
+    <Preference android:title="@string/about" >
+        <intent android:action="ru.handy.android.rd.About"/>
+    </Preference>
+
+</PreferenceScreen>

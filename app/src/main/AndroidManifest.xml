@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.handy.android.rd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/redial"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".RedialSettings"
+            android:label="@string/redial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityFirstQuestion"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" />
+        <activity
+            android:name=".ActivitySecondQuestion"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" />
+
+        <activity
+            android:name=".Help"
+            android:label="@string/help"
+            android:theme="@style/ActivityTheme">
+            <intent-filter>
+                <action android:name="ru.handy.android.rd.Help" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/about"
+            android:theme="@style/ActivityTheme">
+            <intent-filter>
+                <action android:name="ru.handy.android.rd.About" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".CallDetectService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="microphone" />
+
+        <!-- необходимо для отслживания звонков начиная с 29 версии SDK -->
+        <service
+            android:name="ru.handy.android.rd.CallHelper$CallRedirectionServiceImpl"
+            android:permission="android.permission.BIND_CALL_REDIRECTION_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.CallRedirectionService" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" android:maxSdkVersion="28" /> <!-- необходимо для отслживания звонков до 29 версии SDK -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/> <!-- необходимо для отслживания звонков -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- необходимо для программного вызова звонков -->
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />  <!-- необходимо для возможности закончить звонок (с 28 версии SDK) -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- необходимо для сервиса, который отображается в верхней строке состояния -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- вроде как нужно для полноэкранного уведомления (с 29 версии), но пока отказался от этого -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--
+        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+        <uses-permission android:name="android.permission.WAKE_LOCK" />
+    -->
+
+
+</manifest>

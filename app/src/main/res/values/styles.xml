@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <!-- Тема для всех активити, за исключением главного -->
+    <style name="ActivityTheme" parent="Theme.AppCompat.DayNight">
+    </style>
+
+</resources>
